@@ -41,3 +41,10 @@ var sun = function (str) {
 var tiny = function (num) {
 	return num > 0 && num < 1;
 }
+
+var getSeconds = function (time) {
+	split = [];
+ 	split = time.split(':');
+	var seconds = parseFloat(split[0]) * 60 + parseFloat(split[1]) ;
+	console.log(seconds);
+}
