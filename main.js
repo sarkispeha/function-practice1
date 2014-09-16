@@ -25,3 +25,11 @@ var toArray = function (a,b,c) {
 	Arr.push(a,b,c);
 	console.log(Arr);
 }
+
+var startsWithA = function (str) {
+	return str[0].toUpperCase() === 'A';	
+}
+
+var excite = function (str) {
+	consol.log(str +'!!!');
+}
