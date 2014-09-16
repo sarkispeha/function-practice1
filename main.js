@@ -33,3 +33,7 @@ var startsWithA = function (str) {
 var excite = function (str) {
 	console.log(str +'!!!');
 }
+
+var sun = function (str) {
+	return str.indexOf('sun') !== -1;
+}
