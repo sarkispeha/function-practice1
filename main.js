@@ -31,5 +31,5 @@ var startsWithA = function (str) {
 }
 
 var excite = function (str) {
-	consol.log(str +'!!!');
+	console.log(str +'!!!');
 }
