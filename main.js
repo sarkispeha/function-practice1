@@ -37,3 +37,7 @@ var excite = function (str) {
 var sun = function (str) {
 	return str.indexOf('sun') !== -1;
 }
+
+var tiny = function (num) {
+	return num > 0 && num < 1;
+}
